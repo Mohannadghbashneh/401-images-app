@@ -1,0 +1,29 @@
+.test {
+    display: flex;
+     flex-direction: row;
+}
+ .card {
+   border: 1px solid #dadada;
+   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.2s;
+   width: 50%;
+   
+ }
+ 
+ .imagecard {
+   padding: 2px;
+   margin: 8px 0;
+
+ }
+ 
+ .card:hover {
+   box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card .container {
+   padding: 2px 14px;
+ }
+ 
+ .imagecard  {
+   margin: 14px 0;
+ }
